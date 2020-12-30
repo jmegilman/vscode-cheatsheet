@@ -1,4 +1,4 @@
-# Visual Studio Cheat Sheet for Mac
+# Visual Studio Code Cheat Sheet for Mac
 
 ## Commonly Used Keyboard Shortcuts
 ### Add cursor to all instances of selected code
