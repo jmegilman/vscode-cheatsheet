@@ -1,12 +1,6 @@
 # Visual Studio Code Cheat Sheet for Mac
 
 ## Commonly Used Keyboard Shortcuts
-### Add cursor to all instances of selected code
-
-Shift + cmd + L
-
-A note here - if you're using the [Loom](https://www.loom.com/) app it overrides this shortcut! You'll have to quit Loom to use it.
-
 ### Find instance of selected in current file
 
 cmd + f
@@ -15,13 +9,11 @@ cmd + f
 
 cmd + alt + f
 
-### Find in all files
+### Add cursor to all instances of selected
 
-shift + cmd + f
+Shift + cmd + L
 
-### Find file by name
-
-cmd + p
+A note here - if you're using the [Loom](https://www.loom.com/) app it overrides this shortcut! You'll have to quit Loom to use it.
 
 ### Add cursor to the line above
 
@@ -38,6 +30,16 @@ shift + alt + up arrow
 ### Copy currently selected line(s) to below
 
 shift + alt + down arrow
+
+### Select Line
+
+cmd + L
+
+### Select code block (between {})
+
+shift + ctrl + right arrow
+
+...works once if you're at the end of a line in the code block, otherwise keep pressing until the whole block is selected.
 
 ### Highlight to beginning of line from cursor
 
@@ -63,6 +65,14 @@ alt + shift + left arrow
 
 alt + shift + right arrow
 
+### Delete previous word
+
+alt + delete
+
+### Delete all to the left of the cursor for this line
+
+cmd + delete
+
 ### Move to file top
 
 cmd + up arrow
@@ -75,6 +85,16 @@ cmd + down arrow
 
 cmd + /
 
+## Editor Keyboard Shortcuts
+
+### Find in all files
+
+shift + cmd + f
+
+### Find file by name
+
+cmd + p
+
 ### Close current tab
 
 cmd + w
@@ -83,13 +103,25 @@ cmd + w
 
 alt + cmd + t
 
+### Reopen last closed tab
+
+shift + cmd + t
+
 ### Move to tab right
 
 alt + cmd + right arrow
 
+or
+
+shift + cmd + ]
+
 ### Move to tab left
 
 alt + cmd + left arrow
+
+or 
+
+shift + cmd + [
 
 ### New tab
 
@@ -99,6 +131,18 @@ shift + cmd + t
 
 cmd + \
 
+or
+
+ctrl + cmd + right arrow
+
+### Move tab between split screen
+
+ctrl + cmd + right arrow
+
+or 
+
+ctrl + cmd + left arrow
+
 ### Go to line
 
 ctrl + g
@@ -106,6 +150,24 @@ ctrl + g
 ### Toggle the Terminal in the editor
 
 ctrl + `
+
+### Toggle sidebar
+
+cmd + b
+
+### Show running extensions
+
+shift + cmd + p (opens 'command palette')
+
+...and type 'Show Running Extensions'
+
+### Show running processes
+
+To see what processes are running/using memory...
+
+shift + cmd + p (opens 'command palette')
+
+...and type 'Open Process Explorer'
 
 ## Editor Customisation
 
@@ -115,7 +177,7 @@ cmd + ,
 
 ### Choose tab highlight colour (with Material Theme)
 
-shift + cmd + p
+shift + cmd + p (opens 'command palette')
 
 ...and type 'Material Theme: Set accent color'
 
